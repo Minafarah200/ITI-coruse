@@ -2,14 +2,16 @@
   #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
     int N;
-    cin >> N;   // قراءة العدد N
+    cin >> N;   
 
     for (int i = 1; i <= N; i++) {
-        cout << i << endl;  // طباعة كل رقم في سطر منفصل
+        cout << i << endl;  
     }
 
     return 0;
 }
+
 
